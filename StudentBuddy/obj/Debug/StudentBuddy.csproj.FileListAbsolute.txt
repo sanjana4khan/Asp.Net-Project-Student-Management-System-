@@ -1,0 +1,66 @@
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\StudentBuddy.dll.config
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\StudentBuddy.dll
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\StudentBuddy.pdb
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\Microsoft.Web.Infrastructure.dll
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\System.Web.Helpers.dll
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\System.Web.Mvc.dll
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\System.Web.Razor.dll
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.Deployment.dll
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.dll
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.Razor.dll
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\System.Web.Razor.xml
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.xml
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.Deployment.xml
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.Razor.xml
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\System.Web.Helpers.xml
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\bin\System.Web.Mvc.xml
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\obj\Debug\StudentBuddy.csprojResolveAssemblyReference.cache
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\obj\Debug\StudentBuddy.csproj.CoreCompileInputs.cache
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\obj\Debug\StudentBuddy.dll
+c:\users\masru\source\repos\StudentBuddy\StudentBuddy\obj\Debug\StudentBuddy.pdb
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\StudentBuddy.dll.config
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\StudentBuddy.dll
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\StudentBuddy.pdb
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\Microsoft.Web.Infrastructure.dll
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Helpers.dll
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Mvc.dll
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Razor.dll
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.Deployment.dll
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.dll
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.Razor.dll
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Razor.xml
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.xml
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.Deployment.xml
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.Razor.xml
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Helpers.xml
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Mvc.xml
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\obj\Debug\StudentBuddy.csprojResolveAssemblyReference.cache
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\obj\Debug\StudentBuddy.csproj.CoreCompileInputs.cache
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\obj\Debug\StudentBuddy.dll
+F:\3.2\lab\sd\StudentBuddy\StudentBuddy\StudentBuddy\obj\Debug\StudentBuddy.pdb
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\StudentBuddy.dll.config
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\StudentBuddy.dll
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\StudentBuddy.pdb
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\Microsoft.Web.Infrastructure.dll
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Helpers.dll
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Mvc.dll
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Razor.dll
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.Deployment.dll
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.dll
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.Razor.dll
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Razor.xml
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.xml
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.Deployment.xml
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Webpages.Razor.xml
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Helpers.xml
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\bin\System.Web.Mvc.xml
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\obj\Debug\StudentBuddy.csprojResolveAssemblyReference.cache
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\obj\Debug\StudentBuddy.csproj.CoreCompileInputs.cache
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\obj\Debug\StudentBuddy.dll
+F:\3.2\Lab\SD LAB\StudentBuddy\StudentBuddy\StudentBuddy\obj\Debug\StudentBuddy.pdb

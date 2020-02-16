@@ -1,0 +1,305 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Teacher.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="button">
+                <span class="nav" style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+
+            TEACHER CORNER
+        </header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="~/Student/Home">Home</a>
+            <a href="~/Student/Student">Student Corner</a>
+            <a href="~/Student/Teacher">Teachers Corner</a>
+            <a href="~/Student/Admin">Admin Corner</a>
+            <a href="~/Student/AboutUs">About Us</a>
+            <a href="~/Student/Contact">Contact</a>
+        </div>
+
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "200px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        <div class="marksUploadButton">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Upload marks</button>
+        </div>
+
+        <div id="demo" class="collapse">
+            <div class="container">
+                <div class="subContainer1">
+                    <p>Year:</p>
+                    <form>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">1st</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">2nd</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">3rd</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">4th</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="subContainer1">
+                    <p>Semester:</p>
+                    <form>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">1st</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">2nd</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="subContainer1">
+                    <p>Section:</p>
+                    <form>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio"> A </label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio"> B </label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio"> C </label>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="subContainer1">
+                    <p>Department:</p>
+                    <form>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio"> CSE </label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio"> EEE </label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio"> CE </label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio"> TE </label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio"> MPE </label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio"> Archi </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div>
+                <div class="course">
+                    <input type="text" class="form-control" placeholder="Course No" />
+
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Quiz</th>
+                            <th>Attendance</th>
+                            <th>Final</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                            <td><input type="text" class="form-control" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="submit">
+                <button type="button" class="btn btn-success">Upload Marks</button>
+            </div>
+        </div>
+        <div class="teacherProfile">
+            <div class="sub1">
+                <img src="~/Content/images/aminurSir2.jpg" width="100%" height="100%">
+            </div>
+            <div class="sub2">
+                Mr. Md. Aminur Rahman <br />
+                Lecturer<br />
+                B.Sc, CSE, AUST.<br />
+                <h3>Area of Interest:<br /></h3>
+                Machine Learning, Computer Vision, Quantum Computing, Web Application.<br />
+                <h3>Counselling Hour:<br /></h3>
+                <br />
+                <br />
+
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <h5>Copyright Property of Aust Buddy</h5>
+    </footer>
+</body>
+</html>
+

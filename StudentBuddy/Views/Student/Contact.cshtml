@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Contact.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="button">
+                <span class="nav" style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+
+            Contact
+        </header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="~/Student/Home">Home</a>
+            <a href="~/Student/Student">Student Corner</a>
+            <a href="~/Student/Teacher">Teachers Corner</a>
+            <a href="~/Student/Admin">Admin Corner</a>
+            <a href="~/Student/AboutUs">About</a>
+            <a href="~/Student/Contact">Contact</a>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "200px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        <div class="contact">
+            141 & 142, Love Road,<br />
+
+
+            Tejgaon Industrial Area, Dhaka-1208<br />
+            BANGLADESH<br />
+
+
+            Telephone :<br />
+            Vice-Chancellor's Office<br />
+
+            - 8870422 Ext. - 101<br />
+            Treasurer<br />
+            - 8870415<br />
+
+
+            (Registrar	- 8870416)<br />
+
+
+            PABX	8870418,  8870423,  8870426.<br />
+            8870420,  8870424,<br />
+            8870421,  8870425,<br />
+
+            Ext: 400, 500, 300, 104, 107<br />
+
+            Fax Number :	880-2-8870417 - 18<br />
+
+
+            Email :	1. info@aust.edu<br />
+            2. regr@aust.edu<br />
+
+
+        </div>
+    </div>
+    <footer>
+
+        <h5>Copyright Property of Aust Buddy</h5>
+    </footer>
+</body>
+</html>

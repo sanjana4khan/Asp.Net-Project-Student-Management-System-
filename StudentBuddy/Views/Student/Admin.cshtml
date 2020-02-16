@@ -1,0 +1,416 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Admin.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="button">
+                <span class="nav" style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            ADMIN CORNER
+        </header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="~/Student/Home">Home</a>
+            <a href="~/Student/Student">Student Corner</a>
+            <a href="~/Student/Teacher">Teachers Corner</a>
+            <a href="~/Student/Admin">Admin Corner</a>
+            <a href="~/Student/AboutUs">About</a>
+            <a href="~/Student/Contact">Contact</a>
+        </div>
+
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "200px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        <div class="container1">
+            <p>Year:</p>
+            <form>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">1st</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">2nd</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">3rd</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">4th</label>
+                </div>
+            </form>
+        </div>
+
+        <div class="container2">
+            <p>Semester:</p>
+            <form>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">1st</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">2nd</label>
+                </div>
+            </form>
+        </div>
+
+        <div class="container3">
+            <p>Section:</p>
+            <form>
+                <div class="radio">
+                    <label><input type="radio" name="optradio"> A </label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio"> B </label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio"> C </label>
+                </div>
+
+            </form>
+        </div>
+        <div class="container4">
+            <p>Department:</p>
+            <form>
+                <div class="radio">
+                    <label><input type="radio" name="optradio"> CSE </label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio"> EEE </label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio"> CE </label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio"> TE </label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio"> MPE </label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio"> Archi </label>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="routine">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>8:00-8:50</th>
+                        <th>8:50-9:40</th>
+                        <th>9:40-10:30</th>
+                        <th>10:30-11:20</th>
+                        <th>11:20-12.10</th>
+                        <th>12:10-1:00</th>
+                        <th>1:00-1:50</th>
+                        <th>1:50-2:40</th>
+                        <th>2:40-3:30</th>
+                        <th>3:30-4:20</th>
+                        <th>4:20-5:10</th>
+                        <th>5:10-6:00</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Saturday</td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td>Room No</td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Room No</td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Room No</td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Room No</td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Room No</td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Room No</td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div class="course">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Course No</th>
+                        <th>Course Title</th>
+                        <th>Teacher 1</th>
+                        <th>Teacher 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    <tr>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+                        <td><input type="text" class="form-control" /></td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+
+
+        </div>
+        <div class="upload">
+            <button type="button" class="btn btn-success">Upload Routine</button>
+        </div>
+    </div>
+    <footer>
+
+        <h5>Copyright Property of Aust Buddy</h5>
+    </footer>
+</body>
+</html>

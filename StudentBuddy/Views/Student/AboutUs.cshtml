@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/AboutUs.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="button">
+                <span class="nav" style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+
+            About Us
+        </header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="~/Student/Home">Home</a>
+            <a href="~/Student/Student">Student Corner</a>
+            <a href="~/Student/Teacher">Teachers Corner</a>
+            <a href="~/Student/Admin">Admin Corner</a>
+            <a href="~/Student/AboutUs">About</a>
+            <a href="~/Student/Contact">Contact</a>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "200px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        <div class="aboutUs">
+            <p>
+                This website “Student Buddy” is targeted towards removing the hazards of students to some extent.
+                This website will provide an interface to teachers, students and admin to communicate with each other.
+            </p>
+            <h3>We have</h3><br />
+            •	Admins will upload necessary documents like notice, routine etc.<br />
+
+            •	Teachers will upload marks and other necessary course materials.<br />
+
+            •	Students logging into their account can see notice & routines dedicated to them only. They can also see their marks in different courses.<br />
+
+        </div>
+    </div>
+    <footer>
+
+        <h5>Copyright Property of Aust Buddy</h5>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,152 @@
+﻿header {
+    background-color: cadetblue;
+    text-align: center;
+    padding: .25%;
+    font-size: 32px;
+    font-family: Calibri;
+    border: groove;
+    height: 70px;
+    text-align: center;
+    color:aliceblue;
+}
+
+footer {
+    border: groove;
+    font-family: Calibri;
+    margin-top: 5%;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background:url(images/teacher.jpg);
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    color:black;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: cadetblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+.nav {
+    margin-top: -20%;
+}
+
+div.button {
+    width: 10%;
+    height: 10px;
+}
+
+div.marksUploadButton {
+    width: 9%;
+    height: 35px;
+    margin-left: 45%;
+}
+
+.collapse {
+    border: groove;
+    width: 100%;
+    margin-left: 2%;
+    color:black;
+}
+
+.container {
+   
+    width: 100%;
+    height: 200px;
+}
+
+.subContainer1 {
+    float: left;
+    width: 25%;
+    height: 100%;
+    border: groove;
+    color:black;
+   font-family:Arial 'Blackadder ITC';
+}
+
+.course {
+    border: groove;
+    width: 60%;
+}
+
+.table {
+    margin-top: 2%;
+}
+
+.submit {
+    width: 10%;
+   
+    margin-left: 80%;
+    margin-top: 5%;
+}
+
+.teacherProfile {
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 80%;
+    border: groove;
+    height: 400px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sub1 {
+    float: left;
+    width: 20%;
+    height: 100%;
+    border: groove;
+}
+
+.sub2 {
+    float: left;
+    width: 80%;
+    height: 100%;
+    border: groove;
+    font-family: Calibri;
+    font-size: 20px;
+    padding: 2%;
+    color:black;
+}

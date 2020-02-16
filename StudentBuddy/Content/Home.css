@@ -1,0 +1,93 @@
+﻿.body1 {
+    background-color:black;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: .25%;
+    font-size: 32px;
+    font-family: Algerian;
+    border: groove;
+    height: 100px;
+    text-align: center;
+    color:papayawhip;
+}
+
+img.logo {
+    margin-left: -70%;
+    padding: .5%;
+}
+
+div.whole {
+    margin: .5%;
+    background-color:black;
+}
+
+div.navigation {
+    width: 10%;
+}
+
+
+div.carousel-inner {
+    float: right;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: -32.35%;
+}
+
+div.list-group a {
+    padding: 14.25%;
+    background-color: black;
+    color:papayawhip;
+}
+
+div.list-group a:hover {
+        background-color: rosybrown;
+    }
+
+div.inner1, div.inner2 {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+div.innermost1, div.innermost2, div.innermost3, div.innermost4, div.innermost5, div.innermost6 {
+    float: left;
+    height: 300px;
+    width: 33.33%;
+    text-align: center;
+    border: 1px solid;
+    padding: 1%;
+}
+
+div.outsider {
+    height: 40%;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+
+footer {
+    border: groove;
+    font-family: Calibri;
+    margin-top:2%;
+    text-align: center;
+    background-color: antiquewhite;
+    font-size:9px;
+}
+
+div.aust {
+    width: 18%;
+    height: 605px;
+    border: groove;
+    margin-left: 81%;
+    margin-top: -45.5%;
+}
+
+    div.aust p {
+        font-family: Calibri;
+        font-size:17px;
+        color:papayawhip;
+        padding-top: 5%;
+    }
